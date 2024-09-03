@@ -45,9 +45,6 @@ A seguir estão algumas das visualizações e análises realizadas durante o pro
 4. **Correlação entre Duração do Filme e Crítica**: 
    - Scatter plot explorando a relação entre a duração dos filmes e suas notas no IMDb.
 
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias.
-
 ## Autores
 - **Gabriel Machado**
 - **Victor de Almeida Bombarda**
