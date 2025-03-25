@@ -1,55 +1,25 @@
-# Análise de Dataset de Filmes dos EUA
+# Analysis of the US Movie Dataset
 
-## Visão Geral
-Este projeto tem como objetivo analisar e explorar um dataset de filmes dos Estados Unidos, obtido do Kaggle. A análise foi realizada utilizando a linguagem R, com foco em visualizações de dados para identificar padrões e tendências na indústria cinematográfica.
+## Overview
+This project aims to analyze and explore a dataset of movies from the United States, obtained from Kaggle. The analysis was conducted using the R programming language, with a focus on data visualization to identify patterns and trends within the film industry.
 
-## Objetivos do Projeto
-- **Visualizar e explorar dados**: Entender as tendências na produção de filmes, fluxo de público nas salas de cinema, e a relação entre duração dos filmes e suas críticas.
-- **Identificar o impacto da crise de 2008**: Analisar como a crise financeira global afetou a quantidade de filmes lançados e o público dos cinemas.
-- **Explorar estratégias de lançamento**: Investigar a escolha dos dias para lançamento dos filmes e como isso impacta no desempenho inicial dos mesmos.
-- **Avaliar a relação entre a duração dos filmes e suas críticas**: Determinar se há uma correlação significativa entre o tempo de duração de um filme e sua nota em sites de crítica, como o IMDb.
+## Project Objectives
+- **Visualize and Explore Data:** Understand trends in film production, cinema audience flow, and the relationship between film duration and critical reception.
+- **Identify the Impact of the 2008 Crisis:** Analyze how the global financial crisis affected the quantity of films released and cinema attendance.
+- **Explore Release Strategies:** Investigate the choice of release days for films and how this impacts their initial performance.
+- **Evaluate the Relationship Between Film Duration and Reviews:** Determine if there is a significant correlation between the length of a film and its rating on review websites such as IMDb.
 
-## Conclusões Principais
-- **Impacto da Crise de 2008**: Houve uma queda significativa no número de filmes lançados nos anos seguintes à crise, com uma recuperação lenta ao longo dos quatro anos seguintes.
-- **Fluxo nas Salas de Cinema**: Apesar da queda na produção de filmes, o número de ingressos vendidos aumentou, indicando que o interesse do público pelo cinema permaneceu forte, mesmo em tempos de crise.
-- **Escolha dos Dias de Lançamento**: A maioria dos filmes é lançada às sextas-feiras, aproveitando o final de semana para maximizar o público. No entanto, há estratégias de lançamento em outros dias, especialmente em feriados, para maximizar o tempo de exibição inicial.
-- **Relação entre Duração do Filme e Crítica**: Não foi encontrada uma correlação forte entre a duração dos filmes e suas notas no IMDb, com exceções notáveis em certos gêneros, como o drama, que tendem a ter correlações ligeiramente mais altas.
+## Key Findings
+- **Impact of the 2008 Crisis:** A significant decrease in the number of films released was observed in the years following the 2008 financial crisis, with a slow recovery over the subsequent four years.
+- **Cinema Attendance Trends:** Despite the decline in film production, the number of tickets sold increased, indicating sustained public interest in cinema even during economic hardship.
+- **Film Release Day Strategies:** The majority of films are released on Fridays, leveraging the weekend to maximize initial audience reach. However, strategic releases on other days, particularly holidays, are also employed to extend the initial screening period.
+- **Correlation Between Film Duration and Critical Reception:** No strong correlation was found between the duration of films and their IMDb ratings. Notable exceptions exist within certain genres, such as drama, which tend to exhibit slightly higher correlations.
 
-## Tecnologias Utilizadas
-- **Linguagem**: R
-- **Bibliotecas Principais**: `ggplot2`, `dplyr`, `readr`
+## Technologies Used
+- **Language:** R
+- **Key Libraries:** `ggplot2`, `dplyr`, `readr`
 
-## Como Executar
-1. Clone este repositório: 
+## How to Execute
+1. Clone this repository:
    ```bash
-   git clone https://github.com/Gabriel-Machado-GM/data_movies_A2.git
-   ```
-2. Instale as dependências necessárias:
-   ```R
-   install.packages(c("ggplot2", "dplyr", "readr"))
-   ```
-3. Execute o script de análise:
-   ```R
-   source("script_analise.R")
-   ```
-
-## Resultados e Visualizações
-A seguir estão algumas das visualizações e análises realizadas durante o projeto:
-
-1. **Impacto da Crise de 2008 na Produção de Filmes**: 
-   - Gráfico mostrando a queda na produção de filmes em 2009-2010.
-2. **Fluxo de Ingressos Vendidos Durante a Crise**: 
-   - Gráfico demonstrando o aumento na venda de ingressos, mesmo durante a crise.
-3. **Distribuição dos Dias de Lançamento**: 
-   - Gráfico de barras mostrando a frequência de lançamentos por dia da semana.
-4. **Correlação entre Duração do Filme e Crítica**: 
-   - Scatter plot explorando a relação entre a duração dos filmes e suas notas no IMDb.
-
-## Autores
-- **Gabriel Machado**
-- **Victor de Almeida Bombarda**
-
-## Licença
-Este projeto é licenciado sob a [MIT License](LICENSE).
-
----
+   git clone [https://github.com/Gabriel-Machado-GM/data_movies_A2.git](https://github.com/Gabriel-Machado-GM/data_movies_A2.git)
